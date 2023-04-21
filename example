@@ -1,0 +1,26 @@
+<div className="container w-[100%] h-[40vh]">
+    <img
+      className="rounded-[50%_50%_48%52%/_0%_0%_100%_100%] w-screen min-[320px]:text-center max-[725px]:hidden"
+      src={imgfooter}
+      alt=""
+    />
+    <div className="flex flex-row justify-evenly">
+      <h5 className="mr-4 text-2xl">Home</h5>
+      <h5 className="text-2xl">Mangas</h5>
+    </div>
+    <div className="text-center flex">
+      <h2 className="text-4xl text-orange-500 font-bold">Minga</h2>
+      <img className="w-[50px]" src={ultima} alt="" />
+    </div>
+  </div>
+<div className="flex flex-col items-center ml-4">
+          <div className="flex flex-row gap-5 p-4">
+            <img src={facebook} alt="" className="w-5 h-auto" />
+            <img src={twitter} alt="" className="w-5 h-auto" />
+            <img src={vimeo} alt="" className="w-5 h-auto" />
+            <img src={youtube} alt="" className="w-5 h-auto" />
+          </div>
+          <button className="ml-4 flex rounded items-center gap-2 bg-orange-500 text-white px-10 py-3 font-bold hover:bg-orange-600  text-lg">
+            Donate <img src={corazon} alt="" />
+          </button>
+        </div>

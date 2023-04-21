@@ -5,7 +5,11 @@ module.exports = {
   './src/**/*.{js,jsx,ts,tsx}' //esto también es una forma de englobar subdirectorios
   ],
   theme: {
-  extend: {}
+  extend: {
+    backgroundImage: {
+      'img-nav': 'url("public/imagenes/img-nav.png")'
+    }
+  }
   },
   variants: {},
   plugins: []
