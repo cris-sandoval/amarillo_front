@@ -8,6 +8,9 @@ module.exports = {
   extend: {
     backgroundImage: {
       'img-nav': 'url("public/imagenes/img-nav.png")'
+    },
+    Image: {
+      'nav-mob': 'url("url("public/imagenes/Nav-mobile.png")'
     }
   }
   },
