@@ -8,7 +8,7 @@ module.exports = {
   extend: {
     backgroundImage: {
 
-      'img-nav': 'url("src/imagenes/img-nav.png")'
+      'img-nav': 'url("./src/imagenes/img-nav.png")'
     },
 
   }
