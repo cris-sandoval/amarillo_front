@@ -7,8 +7,10 @@ module.exports = {
   theme: {
   extend: {
     backgroundImage: {
-      'img-nav': 'url("public/imagenes/img-nav.png")'
-    }
+
+      'img-nav': 'url("src/imagenes/img-nav.png")'
+    },
+
   }
   },
   variants: {},
