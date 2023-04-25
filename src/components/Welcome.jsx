@@ -3,7 +3,7 @@
 export default function Welcome() {
   return (
     <div className='container w-[100%] h-[60vh] flex flex-col'>
-    <div className='bg-img-nav  bg-cover object-fill w-screen h-[60vh]  min-[320px]:h-[100vh] '>
+    <div className='bg-[url("/imagenes/img-nav.png")]  bg-cover object-fill w-screen h-[60vh]  min-[320px]:h-[100vh] '>
     <div className="flex flex-col gap-[5px] ml-8 min-[320px]:mt-[50%] md:mt-[5%] max-sm:items-center">
           <h2 className="text-[50px] font-bold text-white lg:text-[70px]">
             For the love of manga
