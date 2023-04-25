@@ -1,22 +1,18 @@
-
-import facebook from "../public/imagenes/Facebook.png";
-import twitter from "../public/imagenes/Twitter.png";
-import corazon from "../public/imagenes/Union.png";
-import vimeo from "../public/imagenes/Vimeo.png";
-import youtube from "../public/imagenes/Youtube.png";
-import ultima from "../public/imagenes/ultima.png";
-import imgfooter from "../public/imagenes/imagen-footer.png";
+import facebook from "../imagenes/Facebook.png";
+import twitter from "../imagenes/Twitter.png";
+import corazon from "../imagenes/Union.png";
+import vimeo from "../imagenes/Vimeo.png";
+import youtube from "../imagenes/Youtube.png";
+import ultima from "../imagenes/ultima.png";
+import imgfooter from "../imagenes/imagen-footer.png";
 
 export default function Footer() {
   return (
-    
-    <> 
-    <img
-      className="rounded-[50%_50%_48%52%/_0%_0%_100%_100%] w-screen min-[320px]:text-center max-md:hidden"
-      src={imgfooter}
-      alt=""
-    />
-    <footer className="flex justify-around items-center border p-4 mt-20 min-[320px]:text-center max-md:hidden">
+    <>       
+    <img className="rounded-[50%_50%_48%52%/_0%_0%_100%_100%] w-screen min-[320px]:text-center max-md:hidden"
+       src={imgfooter}
+       alt=""/>
+     <footer className="flex justify-around items-center border p-4 mt-20 min-[320px]:text-center max-md:hidden">
       <div className="flex flex-row justify-evenly">
         <h5 className="mr-4 text-2xl">Home</h5>
         <h5 className="text-2xl">Mangas</h5>
@@ -37,6 +33,7 @@ export default function Footer() {
         </button>
       </div>
     </footer>
-  </>
+    </>
   )
 }
+

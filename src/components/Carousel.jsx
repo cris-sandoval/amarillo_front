@@ -1,11 +1,10 @@
-import circleL from "../public/imagenes/circle-l.png";
-import circleR from "../public/imagenes/circle-r.png";
-import hadaImg from "../public/imagenes/hada-img.png";
-import lufyImg from "../public/imagenes/lufi-img.png";
+import circleL from "../imagenes/circle-l.png";
+import circleR from "../imagenes/circle-r.png";
+import hadaImg from "../imagenes/hada-img.png";
+import lufyImg from "../imagenes/lufi-img.png";
 
 export default function Carousel() {
   return (
-    <> 
     <div className="flex w-screen h-[40vh] justify-center content-center min-[320px]:text-center max-md:hidden ">
         <div className="bg-orange-500 w-[92%] h-[22vh] mt-[3%] rounded flex ">
         <div className=" w-[50%] h-full flex items-center justify-around">
@@ -27,6 +26,5 @@ export default function Carousel() {
         </div>
         </div>
     </div>
-</>
   )
 }
