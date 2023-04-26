@@ -43,8 +43,8 @@ export default function Carousel() {
         <div  className="w-[92%] h-[28vh] mt-[3%] rounded flex " style={{backgroundColor:categories[counter]?.color}}>
         <div className=" w-[50%] h-full flex items-center justify-around">
             <img onClick={restar} className="w-[40px] h-auto lg:w-[60px]" src={circleL} />
-            <img className="w-[200px] h-[10px] mt-[-15px] lg:h-[220px]" src={categories[counter]?.character_photo} />
-            <img className="w-[150px] h-[10px] mt-[-25px] lg:h-[180px]" src={categories[counter]?.cover_photo} />
+            <img className="w-[150px] h-[10px] mt-[-15px] md:h-[120px] lg:h-[150px]" src={categories[counter]?.character_photo} />
+            <img className="w-[140px] h-[10px] mt-[-25px] md:h-[140px] lg:h-[160px]" src={categories[counter]?.cover_photo} />
         </div>
         <div className=" w-[50%] h-full flex items-center justify-around">
             <div className="flex flex-col w-[250px] text-left ">
