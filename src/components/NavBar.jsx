@@ -19,14 +19,14 @@ export default function NavBar() {
       <img onClick={()=> setShow(!show) } src={navmobile} className="min-[320px]:w-[98%] min-[320px]:h-[60px]  lg:h-[60px] md:hidden" />
       {
         (show)? (
-          <nav className="bg-orange-500 w-[30%] h-[65vh] absolute mt-[0px] ml-[10px] rounded z-10 justify-center items-center flex flex-col">
-      <div className=" w-[95%] h-[20%] flex justify-center items-center gap-9">
-        <img className="w-[65px]" src={kilua} alt="" />
+          <nav className="bg-orange-500 w-[30%] min-[320px]:w-[55%] h-[65vh] absolute mt-[0px] ml-[10px] rounded z-10 justify-center items-center flex flex-col" >
+      <div className=" w-[95%] h-[20%] flex justify-center items-center min-[320px]:gap lg:gap-5 md:space-x-9">
+        <img className="w-[65px] min-[320px]:w-[35px] md:w-[45px]" src={kilua} alt="" />
         <div>
-        <p className="text-[13px] text-white">Lucas Ezequiel Silva</p>
-        <p className="text-[13px] text-white">lucasezequielsilva@gmail.com</p>
+        <p className="text-[13px] text-white min-[320px]:text-[8px] md:text-[11px] lg:md:text-[13px]">Lucas Ezequiel Silva</p>
+        <p className="text-[13px] text-white min-[320px]:text-[8px] md:text-[10px] lg:md:text-[13px]">lucasezequielsilva@gmail.com</p>
         </div>
-        <img  onClick={()=> setShow(!show)} className="w-[25px] h-[25px]" src={x} alt="" />
+        <img  onClick={()=> setShow(!show)} className="w-[15px] h-[15px] min-[320px]:w-[10px]" src={x} alt="" />
       </div>
       <div className=" w-[90%] h-[70%] justify-center items-center flex flex-col gap-5">
         <h3 className="text-[20px] text-white hover:bg-white hover:text-orange-500" >Home</h3>
