@@ -19,8 +19,8 @@ export default function NavBar() {
       <img onClick={()=> setShow(!show) } src={navmobile} className="min-[320px]:w-[98%] min-[320px]:h-[60px]  lg:h-[60px] md:hidden" />
       {
         (show)? (
-          <nav className="bg-orange-500 w-[30%] min-[320px]:w-[55%] h-[65vh] absolute mt-[0px] ml-[10px] rounded z-10 justify-center items-center flex flex-col" >
-      <div className=" w-[95%] h-[20%] flex justify-center items-center min-[320px]:gap lg:gap-5 md:space-x-9">
+          <nav className="bg-orange-500 w-[30%] min-[320px]:w-[65%] md:w-[45%] h-[65vh] absolute mt-[0px] ml-[10px] rounded z-10 justify-center items-center flex flex-col" >
+      <div className=" w-[95%] h-[20%] flex justify-center items-center min-[320px]:gap-3 lg:gap-5 md:space-x-9">
         <img className="w-[65px] min-[320px]:w-[35px] md:w-[45px]" src={kilua} alt="" />
         <div>
         <p className="text-[13px] text-white min-[320px]:text-[8px] md:text-[11px] lg:md:text-[13px]">Lucas Ezequiel Silva</p>
